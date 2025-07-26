@@ -144,17 +144,13 @@ Iteratively run the complete test suite and address issues:
 3. Repeat until 0 failures, 0 errors
 4. Verify test coverage meets requirements
 
-### Step 8. Submit Final PR
+### Step 8. Create a PR
 
-When all tests are passing:
+When you have completed comprehensive test coverage with 100% passing tests, you should create a PR.
 ```bash
-# Commit all test improvements
+# Set a timer/reminder to commit regularly
 git add -A
-git commit -m "Complete test coverage - all tests passing"
-
-# Push and create PR
-git push origin feature-branch
-# Create PR with description of test improvements
+git commit -m "complete test coverage - all tests passing"
 ```
 
 ## Tips for Claude Code
